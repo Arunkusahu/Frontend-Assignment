@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+} */
+
+body{
+  margin: 0;
+  padding: 0;
+} 
+
+#navbar {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:#ff7171;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80vw;
+  align-items: center;
+}
+
+#navbar ul li {
+  list-style-type: none;
+  font-size: 1.5vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+#navbar ul img {
+  width: 2vw;
+  aspect-ratio: 1;
+}
+
+#container{
+    width: 100vw;
+    background: linear-gradient(to right,#fff7ad, #ffb3ef);
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+
+}
+
+#lorempart{
+    width: 50vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#imgpart{
+    width: 50vw;
+    height: 90vh;
+
+}
+
+#imgpart img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+#lorembox{
+
+  height: 50vh;
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#loremheading{
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 4.5px;
+
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1.3vw;
+}
+
+#clickmebtn{
+  width: 13vw;
+  height: 6.5vh;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #ff7171;
+  border: none;
+}
+
+/* #clickmebtn{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #ff7171;
+  border: none;
+} */
